@@ -1,0 +1,135 @@
+/* General Reset for Add Student Page */
+body, h2, h3, table, input, label {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f8f8f8;
+}
+
+/* Wrapper */
+#wrapper {
+	width: 80%;
+	margin: 50px auto;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: center;
+}
+
+/* Header */
+#header {
+	background-color: #8b0000; /* Dark Red */
+	color: white;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#header h2 {
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Container */
+#container {
+	padding: 20px;
+	text-align: center;
+}
+
+#container h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #8b0000; /* Dark Red for consistency */
+}
+
+/* Table Styling for Form */
+table {
+	margin: 0 auto; /* Center the form table */
+	width: 80%; /* Larger table width */
+	border-collapse: collapse;
+	margin-top: 20px;
+	background-color: #f8f8f8; /* Match table background to page background */
+}
+
+table td {
+	padding: 15px 10px; /* Increased padding for better spacing */
+	border: none; /* Invisible borders */
+	text-align: left;
+	font-size: 16px;
+	width: 40%; /* Column width for labels */
+}
+
+table label {
+	font-weight: bold;
+	color: #333; /* Text color for labels */
+}
+
+table input[type="text"], table input[type="email"] {
+	width: 100%; /* Full width for inputs */
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+/* Submit Button Styling */
+.save {
+	padding: 10px 20px;
+	background-color: #8b0000; /* Dark Red */
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top: 10px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.save:hover {
+	background-color: #b22222; /* Slightly lighter red on hover */
+	transform: scale(1.05); /* Hover effect: slight enlargement */
+}
+
+.save:active {
+	background-color: #600000; /* Darker red on click */
+	transform: scale(0.95); /* Click effect: slight shrink */
+}
+
+/* Back Button Styling */
+.add-student-button {
+	padding: 10px 20px;
+	background-color: #555555; /* Dark Gray */
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top: 10px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-student-button:hover {
+	background-color: #777777; /* Lighter gray on hover */
+	transform: scale(1.05); /* Hover effect: slight enlargement */
+}
+
+.add-student-button:active {
+	background-color: #333333; /* Darker gray on click */
+	transform: scale(0.95); /* Click effect: slight shrink */
+}
+
+/* Center the entire body content */
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}

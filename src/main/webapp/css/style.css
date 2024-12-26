@@ -1,0 +1,175 @@
+/* General Reset */
+body, h2, table, input {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #f8f8f8;
+}
+
+/* Centering the Wrapper */
+#wrapper {
+	width: 80%;
+	margin: 50px auto;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: center; /* Centering the content inside the wrapper */
+}
+
+/* Header */
+#header {
+	background-color: #8b0000; /* Dark Red */
+	color: white;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+#header h2 {
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Container */
+#container {
+	padding: 20px;
+}
+
+/* Content */
+#content {
+	margin: 20px 0;
+}
+
+/* Table Styling */
+table {
+	margin: 0 auto; /* Center the table */
+	width: 95%; /* Increased table width */
+	border-collapse: collapse;
+	margin-top: 20px;
+	background-color: #ffffff;
+}
+
+table th, table td {
+	border: 1px solid #ddd;
+	padding: 15px; /* Increased padding for larger cells */
+	text-align: center; /* Center the table content */
+	font-size: 14px;
+}
+
+table th {
+	background-color: #8b0000; /* Dark Red */
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table tr:hover {
+	background-color: #ffd5d5; /* Light red on hover */
+}
+
+table td {
+	color: #333;
+	width: 25%; /* Assign a percentage width to each column */
+}
+
+/* Links and Buttons */
+a {
+	color: #8b0000; /* Dark Red */
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Styling for Add Student Button */
+.add-student-button {
+	display: block;
+	margin: 20px auto; /* Center the button */
+	padding: 10px 20px;
+	background-color: #8b0000; /* Dark Red */
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-student-button:hover {
+	background-color: #b22222; /* Slightly lighter red on hover */
+	transform: scale(1.05); /* Slight hover effect */
+}
+
+.add-student-button:active {
+	background-color: #600000; /* Even darker red on click */
+	transform: scale(0.95); /* Slight shrink effect */
+}
+
+/* Update Student Button */
+.update-student-button {
+	padding: 7.5px 15px;
+	background-color: #555555; /* Dark Gray */
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top: 10px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.update-student-button:hover {
+	background-color: #777777; /* Lighter gray on hover */
+	transform: scale(1.05); /* Hover effect: slight enlargement */
+}
+
+.update-student-button:active {
+	background-color: #333333; /* Darker gray on click */
+	transform: scale(0.95); /* Click effect: slight shrink */
+}
+
+/* Delete Student Button */
+.delete-student-button {
+	padding: 7.5px 15px;
+	background-color: #dc3545; /* Red */
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top: 10px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-student-button:hover {
+	background-color: #c82333; /* Slightly lighter red on hover */
+	transform: scale(1.05); /* Hover effect: slight enlargement */
+}
+
+.delete-student-button:active {
+	background-color: #a71d2a; /* Darker red on click */
+	transform: scale(0.95); /* Click effect: slight shrink */
+}
+
+/* Center the entire body content */
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
